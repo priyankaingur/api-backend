@@ -1,0 +1,72 @@
+{
+    "metricsList": [
+      {
+        "TimeStamp": "28-01-2024 16:08:15",
+        "UserInteraction": "LEVEL_NAME: 2_C.json"
+      },
+      {
+        "TimeStamp": "28-01-2024 16:08:15",
+        "UserInteraction": "SwitchToFunction1"
+      },
+      {
+        "TimeStamp": "28-01-2024 16:08:19",
+        "UserInteraction": "CATEGORY:MovementCommandPaletteButton"
+      },
+      {
+        "TimeStamp": "28-01-2024 16:08:21",
+        "UserInteraction": "COMMAND:Command=[Move=MOVE_FORWARD, LeftChild=, RightChild=, Parent=, ParentAlt=, IsRemovable=True, IsSlot=False, ]"
+      },
+      {
+        "TimeStamp": "28-01-2024 16:08:23",
+        "UserInteraction": "COMMAND:Command=[Move=IS_VALID_MOVE, LeftChild=END_OF_BRANCH, RightChild=END_OF_BRANCH, Parent=MOVE_FORWARD, ParentAlt=, IsRemovable=True, IsSlot=False, ]"
+      },
+      {
+        "TimeStamp": "28-01-2024 16:08:28",
+        "UserInteraction": "COMMAND:Command=[Move:TURN_CLOCKWISE, LeftChild=END_OF_BRANCH, RightChild=, Parent=IS_VALID_MOVE, ParentAlt=, IsRemovable=True, IsSlot=False, ]"
+      },
+      {
+        "TimeStamp": "28-01-2024 16:08:31",
+        "UserInteraction": "CATEGORY:FunctionCommandPaletteButton"
+      },
+      {
+        "TimeStamp": "28-01-2024 16:08:34",
+        "UserInteraction": "COMMAND:Command=[Move=CALL_FUNCTION_1, LeftChild=, RightChild=, Parent=END_OF_BRANCH, ParentAlt=, IsRemovable=True, IsSlot=False, ]"
+      },
+      {
+        "TimeStamp": "28-01-2024 16:08:36",
+        "UserInteraction": "SwitchToFunctionMain"
+      },
+      {
+        "TimeStamp": "28-01-2024 16:08:37",
+        "UserInteraction": "CATEGORY:FunctionCommandPaletteButton"
+      },
+      {
+        "TimeStamp": "28-01-2024 16:08:38",
+        "UserInteraction": "CATEGORY:FunctionCommandPaletteButton"
+      },
+      {
+        "TimeStamp": "28-01-2024 16:08:40",
+        "UserInteraction": "COMMAND:Command=[Move=CALL_FUNCTION_1, LeftChild=, RightChild=, Parent=, ParentAlt=, IsRemovable=True, IsSlot=False, ]"
+      },
+      {
+        "TimeStamp": "28-01-2024 16:08:42",
+        "UserInteraction": "Play"
+      },
+      {
+        "TimeStamp": "28-01-2024 16:08:49",
+        "UserInteraction": "ERROR:Hit a Wall!"
+      },
+      {
+        "TimeStamp": "28-01-2024 16:08:54",
+        "UserInteraction": "Stop"
+      },
+      {
+        "TimeStamp": "28-01-2024 16:08:59",
+        "UserInteraction": "COMMAND:Command=[Move=TURN_CLOCKWISE, LeftChild=END_OF_BRANCH, RightChild=, Parent=IS_VALID_MOVE, ParentAlt=, IsRemovable=True, IsSlot=False, ]"
+      },
+      {
+        "TimeStamp": "28-01-2024 16:09:09",
+        "UserInteraction": "Play"
+      }
+    ]
+  }

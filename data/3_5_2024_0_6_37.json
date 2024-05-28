@@ -1,0 +1,36 @@
+{
+  "metricsList": [
+    {
+      "TimeStamp": "2/24/2024 4:47:33 PM",
+      "UserInteraction": "levelName:default_level.json"
+    },
+    {
+      "TimeStamp": "2/24/2024 4:47:34 PM",
+      "UserInteraction": "category:FunctionCommandPaletteButton"
+    },
+    {
+      "TimeStamp": "2/24/2024 4:47:36 PM",
+      "UserInteraction": "SwitchToFunction1"
+    },
+    {
+      "TimeStamp": "2/24/2024 4:47:36 PM",
+      "UserInteraction": "category:MovementCommandPaletteButton"
+    },
+    {
+      "TimeStamp": "2/24/2024 4:47:38 PM",
+      "UserInteraction": "command: {\"move\":\"MOVE_FORWARD\", \"leftChild\":null, \"rightChild\":null, \"parent\":null, \"parentAlt\":null, \"isRemovable\":true, \"isSlot\":false}"
+    },
+    {
+      "TimeStamp": "2/24/2024 4:47:39 PM",
+      "UserInteraction": "Play"
+    },
+    {
+      "TimeStamp": "2/24/2024 4:47:39 PM",
+      "UserInteraction": "commandTree:[{\"funcName\":\"CALL_FUNCTION_MAIN\",\"funcDef\":[{\"command\":\"CALL_FUNCTION_1\"}]},{\"funcName\":\"CALL_FUNCTION_1\",\"funcDef\":[{\"command\":\"TURN_COUNTER_CLOCKWISE\"},{\"command\":\"MOVE_FORWARD\"},{\"command\":\"MOVE_FORWARD\"},{\"command\":\"CALL_FUNCTION_1\"}]}]"
+    },
+    {
+      "TimeStamp": "2/24/2024 4:47:42 PM",
+      "UserInteraction": "win: default_level"
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+    "playthroughId": "12345",
+    "sessionTimeStamp": "28-01-2024 16:05:15",
+    "token": "xyz",
+    "subplaythroughs": [
+        {
+            "levelName": "2_C.json",
+            "userInteractions": [
+                {
+                    "timeStamp": "28-01-2024 16:08:15",
+                    "action": "SwitchToFunction1"
+                },
+                {
+                    "timeStamp": "28-01-2024 16:08:19",
+                    "action": "MovementCommandPaletteButton"
+                },
+                {
+                    "timeStamp": "28-01-2024 16:08:21",
+                    "action": "Move",
+                    "command": {
+                        "move": "MOVE_FORWARD",
+                        "leftChild": null,
+                        "rightChild": null,
+                        "parent": null,
+                        "parentAlt": null,
+                        "isRemovable": true,
+                        "isSlot": false
+                    }
+                },
+                {
+                    "timeStamp": "28-01-2024 16:08:23",
+                    "action": "Move",
+                    "command": {
+                        "move": "IS_VALID_MOVE",
+                        "leftChild": "END_OF_BRANCH",
+                        "rightChild": "END_OF_BRANCH",
+                        "parent": null,
+                        "parentAlt": "MOVE_FORWARD",
+                        "isRemovable": true,
+                        "isSlot": false
+                    }
+                },
+                {
+                    "timeStamp": "28-01-2024 16:08:28",
+                    "action": "Move",
+                    "command": {
+                        "move": "TURN_CLOCKWISE",
+                        "leftChild": "END_OF_BRANCH",
+                        "rightChild": null,
+                        "parent": "IS_VALID_MOVE",
+                        "parentAlt": null,
+                        "isRemovable": true,
+                        "isSlot": false
+                    }
+                },
+                {
+                    "timeStamp": "28-01-2024 16:08:31",
+                    "action": "FunctionCommandPaletteButton"
+                },
+                {
+                    "timeStamp": "28-01-2024 16:08:34",
+                    "action": "Move",
+                    "command": {
+                        "move": "CALL_FUNCTION_1",
+                        "leftChild": null,
+                        "rightChild": null,
+                        "parent": "END_OF_BRANCH",
+                        "parentAlt": null,
+                        "isRemovable": true,
+                        "isSlot": false
+                    }
+                },
+                {
+                    "timeStamp": "28-01-2024 16:08:36",
+                    "action": "SwitchToFunctionMain"
+                },
+                {
+                    "timeStamp": "28-01-2024 16:08:37",
+                    "action": "FunctionCommandPaletteButton"
+                },
+                {
+                    "timeStamp": "28-01-2024 16:08:38",
+                    "action": "FunctionCommandPaletteButton"
+                },
+                {
+                    "timeStamp": "28-01-2024 16:08:40",
+                    "action": "Move",
+                    "command": {
+                        "move": "CALL_FUNCTION_1",
+                        "leftChild": null,
+                        "rightChild": null,
+                        "parent": null,
+                        "parentAlt": null,
+                        "isRemovable": true,
+                        "isSlot": false
+                    }
+                },
+                {
+                    "timeStamp": "28-01-2024 16:08:42",
+                    "action": "Play",
+                    "commandTree": {
+                        "moves": [
+                            {
+                                "command": "MOVE_FORWARD"
+                            },
+                            {
+                                "command": "TURN_COUNTER_CLOCKWISE"
+                            },
+                            {
+                                "command": "IS_VALID",
+                                "leftChild": "END",
+                                "rightChild": "TURN_CLOCKWISE"
+                            },
+                            {
+                                "command": "MOVE_FORWARD"
+                            },
+                            {
+                                "command": "TURN_CLOCKWISE"
+                            },
+                            {
+                                "command": "FUNCTION_F1",
+                                "parent": "MAIN"
+                            }
+                        ],
+                        "funcDefs": [
+                            {
+                                "funcName": "FUNCTION_F1",
+                                "funcnMoves": [
+                                    {
+                                        "command": "MOVE_FORWARD"
+                                    },
+                                    {
+                                        "command": "TURN_COUNTER_CLOCKWISE"
+                                    },
+                                    {
+                                        "command": "IS_VALID",
+                                        "leftChild": "END",
+                                        "rightChild": "TURN_CLOCKWISE"
+                                    },
+                                    {
+                                        "command": "MOVE_FORWARD"
+                                    },
+                                    {
+                                        "command": "FUNCTION_F2",
+                                        "parent": "FUNCTION_F1"
+                                    }
+                                ]
+                            },
+                            {
+                                "funcName": "FUNCTION_F2",
+                                "funcMoves": [
+                                    {
+                                        "command": "MOVE_FORWARD"
+                                    },
+                                    {
+                                        "command": "TURN_CLOCKWISE"
+                                    },
+                                    {
+                                        "command": "IS_VALID",
+                                        "leftChild": "END",
+                                        "rightChild": "TURN_CLOCKWISE"
+                                    },
+                                    {
+                                        "command": "MOVE_FORWARD"
+                                    },
+                                    {
+                                        "command": "TURN_COUNTER_CLOCKWISE"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "timeStamp": "28-01-2024 16:08:49",
+                    "action": "Error",
+                    "msg": "Hit a Wall!"
+                },
+                {
+                    "timeStamp": "28-01-2024 16:08:54",
+                    "action": "Reset"
+                },
+                {
+                    "timeStamp": "28-01-2024 16:08:59",
+                    "action": "Move",
+                    "command": {
+                        "move": "TURN_CLOCKWISE",
+                        "leftChild": "END_OF_BRANCH",
+                        "rightChild": null,
+                        "parent": "IS_VALID_MOVE",
+                        "parentAlt": null,
+                        "isRemovable": true,
+                        "isSlot": false
+                    }
+                },
+                {
+                    "timeStamp": "28-01-2024 16:09:09",
+                    "action": "Play",
+                    "commandTree": {
+                        "moves": [
+                            {
+                                "command": "MOVE_FORWARD"
+                            },
+                            {
+                                "command": "TURN_COUNTER_CLOCKWISE"
+                            },
+                            {
+                                "command": "IS_VALID",
+                                "leftChild": "END",
+                                "rightChild": "TURN_CLOCKWISE"
+                            },
+                            {
+                                "command": "MOVE_FORWARD"
+                            },
+                            {
+                                "command": "TURN_CLOCKWISE"
+                            },
+                            {
+                                "command": "FUNCTION_F1",
+                                "parent": "MAIN"
+                            }
+                        ],
+                        "funcDefs": [
+                            {
+                                "funcName": "FUNCTION_F1",
+                                "funcnMoves": [
+                                    {
+                                        "command": "MOVE_FORWARD"
+                                    },
+                                    {
+                                        "command": "TURN_COUNTER_CLOCKWISE"
+                                    },
+                                    {
+                                        "command": "IS_VALID",
+                                        "leftChild": "END",
+                                        "rightChild": "TURN_CLOCKWISE"
+                                    },
+                                    {
+                                        "command": "MOVE_FORWARD"
+                                    },
+                                    {
+                                        "command": "FUNCTION_F2",
+                                        "parent": "FUNCTION_F1"
+                                    }
+                                ]
+                            },
+                            {
+                                "funcName": "FUNCTION_F2",
+                                "funcMoves": [
+                                    {
+                                        "command": "MOVE_FORWARD"
+                                    },
+                                    {
+                                        "command": "TURN_CLOCKWISE"
+                                    },
+                                    {
+                                        "command": "IS_VALID",
+                                        "leftChild": "END",
+                                        "rightChild": "TURN_CLOCKWISE"
+                                    },
+                                    {
+                                        "command": "MOVE_FORWARD"
+                                    },
+                                    {
+                                        "command": "TURN_COUNTER_CLOCKWISE"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "timeStamp": "28-01-2024 16:09:09",
+                    "action": "Win",
+                    "msg": "Sucessfully completed Level 1!"
+                }
+            ]
+        },
+        {
+            "levelName": "stairs.json",
+            "userInteractions": []
+        },
+        {
+            "levelName": "default.json",
+            "userInteractions": []
+        }
+    ]
+}

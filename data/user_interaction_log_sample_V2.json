@@ -1,0 +1,16 @@
+{
+    "metricsList": [
+      {
+        "TimeStamp": "3/1/2024 11:55:17 AM",
+        "UserInteraction": "levelName:default_level.json"
+      },
+      {
+        "TimeStamp": "3/1/2024 11:55:18 AM",
+        "UserInteraction": "category:MovementCommandPaletteButton"
+      },
+      {
+        "TimeStamp": "3/1/2024 11:55:18 AM",
+        "UserInteraction": "command: {\"move\":\"MOVE_FORWARD\", \"leftChild\":null, \"rightChild\":null, \"parent\":null, \"parentAlt\":null, \"isRemovable\":true, \"isSlot\":false}"
+      }
+    ]
+  }
